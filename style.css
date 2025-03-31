@@ -42,7 +42,7 @@ nav ul>li {
     transition: border ease-in-out;
 }
 
-nav ul>li:hover {
+nav ul>li a:hover {
     border-bottom: 2px solid #7e22ce;
 }
 
@@ -456,15 +456,14 @@ footer .ul-items {
 .ul-items li:hover {
     color: #111827;
 }
-footer .ul-icons {
+footer .ul-icons a {
     position: relative;
     left: 300px;
     font-size: 20px;
     color: rgb(107 114 128);
 }
 
-.ul-icons i:hover {
-
+.ul-icons a:hover {
     cursor: pointer;
 }
 
